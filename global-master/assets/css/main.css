@@ -636,6 +636,8 @@ body {
     visibility: hidden
 }
 
+
+
 .side-nav>li::before {
     position: absolute;
     top: 3px;
@@ -677,6 +679,7 @@ body {
     -webkit-transition: opacity .4s ease-in-out;
     transition: opacity .4s ease-in-out
 }
+
 
 .side-nav li.is-active::before {
     left: -33px;
@@ -1123,7 +1126,7 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 900px;
+    width: 100%;
     max-width: 75%;
     height: 100%;
     -webkit-box-orient: vertical;
@@ -1135,7 +1138,8 @@ body {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin: 0 auto
+    margin: 0 auto;
+    overflow-x: visible;
 }
 
 @media (max-width: 1180px) {
@@ -1146,7 +1150,10 @@ body {
 
 .about--banner {
     position: relative;
-    height: 475px
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    overflow-x: visible;
 }
 
 .about--banner::before {
