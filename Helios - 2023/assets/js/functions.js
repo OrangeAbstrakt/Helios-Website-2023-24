@@ -247,7 +247,7 @@ $( document ).ready(function() {
 
     }, 400);
 
-    $('.slider').animate({ opacity : 1 }, 400);
+    // $('.slider').animate({ opacity : 1 }, 400);
 
     });
 

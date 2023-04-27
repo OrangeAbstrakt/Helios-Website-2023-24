@@ -9,8 +9,3 @@ function addTask() {
   taskInput.value = "";
 
 }
-// document.addEventListener("click", function(event){
-//   if(event.target.tagName.toLowerCase() === 'div'){
-//     event.target.parentNode.removeChild(event.target);
-//   }
-// });

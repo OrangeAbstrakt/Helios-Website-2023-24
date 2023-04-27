@@ -3,6 +3,12 @@
     height: 50px;
 }
 
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+
 .logo-img {
     width: 30%;
 }
@@ -282,13 +288,13 @@
     transform: rotateY(180deg);
 }
 
-.gallery{
+.gallery {
     display: grid;
     padding: 3%;
     grid-template-rows: 10% 90%;
 }
 
-.gallery-heading{
+.gallery-heading {
     grid-row: 1/2;
     width: 100%;
     height: 100%;
@@ -304,7 +310,7 @@
     text-shadow: -3px -3px 0px white;
 }
 
-.gallery-main{
+.gallery-main {
     padding: 2%;
     grid-row: 2/3;
     width: 100%;
@@ -317,6 +323,20 @@
 }
 
 
-.main-vis{
+.main-vis {
     left: 40%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+    .intro {
+        background-image: url('../img/introduction-visual.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 60%;
+    }
 }
